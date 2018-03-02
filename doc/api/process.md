@@ -840,7 +840,7 @@ emitMyWarning();
 <!-- YAML
 added: v0.1.27
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/18990
     description: Implicit conversion of variable value to string is deprecated.
 -->
@@ -1482,7 +1482,7 @@ changes:
   - version: v4.2.0
     pr-url: https://github.com/nodejs/node/pull/3212
     description: The `lts` property is now supported.
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/19587
     description: Add SemVer properties.
 -->
@@ -1541,7 +1541,7 @@ should not be relied upon to exist.
 
 ## process.release.compareVersion(major, minor, patch[, tag])
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 Perform a SemVer comparison to the release version.

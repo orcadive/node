@@ -322,7 +322,7 @@ fs.watch('./tmp', { encoding: 'buffer' }, (eventType, filename) => {
 
 ### Event: 'close'
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 Emitted when the watcher stops watching for changes.
@@ -896,7 +896,7 @@ try {
 <!-- YAML
 added: v0.6.7
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/12562
     description: The `callback` parameter is no longer optional. Not passing
                  it will throw a `TypeError` at runtime.
@@ -1016,7 +1016,7 @@ try {
 <!-- YAML
 added: v0.1.30
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/12562
     description: The `callback` parameter is no longer optional. Not passing
                  it will throw a `TypeError` at runtime.
@@ -1103,7 +1103,7 @@ See also: chmod(2)
 <!-- YAML
 added: v0.1.97
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/12562
     description: The `callback` parameter is no longer optional. Not passing
                  it will throw a `TypeError` at runtime.
@@ -1151,7 +1151,7 @@ See also: chown(2)
 <!-- YAML
 added: v0.0.2
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/12562
     description: The `callback` parameter is no longer optional. Not passing
                  it will throw a `TypeError` at runtime.
@@ -1530,7 +1530,7 @@ a callback.)
 <!-- YAML
 added: v0.4.7
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/12562
     description: The `callback` parameter is no longer optional. Not passing
                  it will throw a `TypeError` at runtime.
@@ -1562,7 +1562,7 @@ Synchronous fchmod(2). Returns `undefined`.
 <!-- YAML
 added: v0.4.7
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/12562
     description: The `callback` parameter is no longer optional. Not passing
                  it will throw a `TypeError` at runtime.
@@ -1596,7 +1596,7 @@ Synchronous fchown(2). Returns `undefined`.
 <!-- YAML
 added: v0.1.96
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/12562
     description: The `callback` parameter is no longer optional. Not passing
                  it will throw a `TypeError` at runtime.
@@ -1626,7 +1626,7 @@ Synchronous fdatasync(2). Returns `undefined`.
 <!-- YAML
 added: v0.1.95
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/12562
     description: The `callback` parameter is no longer optional. Not passing
                  it will throw a `TypeError` at runtime.
@@ -1659,7 +1659,7 @@ Synchronous fstat(2).
 <!-- YAML
 added: v0.1.96
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/12562
     description: The `callback` parameter is no longer optional. Not passing
                  it will throw a `TypeError` at runtime.
@@ -1689,7 +1689,7 @@ Synchronous fsync(2). Returns `undefined`.
 <!-- YAML
 added: v0.8.6
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/12562
     description: The `callback` parameter is no longer optional. Not passing
                  it will throw a `TypeError` at runtime.
@@ -1762,7 +1762,7 @@ Synchronous ftruncate(2). Returns `undefined`.
 <!-- YAML
 added: v0.4.2
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/12562
     description: The `callback` parameter is no longer optional. Not passing
                  it will throw a `TypeError` at runtime.
@@ -1808,7 +1808,7 @@ Synchronous version of [`fs.futimes()`][]. Returns `undefined`.
 <!-- YAML
 deprecated: v0.4.7
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/12562
     description: The `callback` parameter is no longer optional. Not passing
                  it will throw a `TypeError` at runtime.
@@ -1842,7 +1842,7 @@ Synchronous lchmod(2). Returns `undefined`.
 <!-- YAML
 deprecated: v0.4.7
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/12562
     description: The `callback` parameter is no longer optional. Not passing
                  it will throw a `TypeError` at runtime.
@@ -1876,7 +1876,7 @@ Synchronous lchown(2). Returns `undefined`.
 <!-- YAML
 added: v0.1.31
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/12562
     description: The `callback` parameter is no longer optional. Not passing
                  it will throw a `TypeError` at runtime.
@@ -1919,7 +1919,7 @@ Synchronous link(2). Returns `undefined`.
 <!-- YAML
 added: v0.1.30
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/12562
     description: The `callback` parameter is no longer optional. Not passing
                  it will throw a `TypeError` at runtime.
@@ -1962,7 +1962,7 @@ Synchronous lstat(2).
 <!-- YAML
 added: v0.1.8
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/12562
     description: The `callback` parameter is no longer optional. Not passing
                  it will throw a `TypeError` at runtime.
@@ -2008,7 +2008,7 @@ See also: mkdir(2)
 <!-- YAML
 added: v5.10.0
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/12562
     description: The `callback` parameter is no longer optional. Not passing
                  it will throw a `TypeError` at runtime.
@@ -2271,7 +2271,7 @@ a Promise for an object with `bytesRead` and `buffer` properties.
 <!-- YAML
 added: v0.1.8
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/12562
     description: The `callback` parameter is no longer optional. Not passing
                  it will throw a `TypeError` at runtime.
@@ -2330,7 +2330,7 @@ the filenames returned will be passed as `Buffer` objects.
 <!-- YAML
 added: v0.1.29
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/12562
     description: The `callback` parameter is no longer optional. Not passing
                  it will throw a `TypeError` at runtime.
@@ -2444,7 +2444,7 @@ fs.readFileSync('<directory>'); // => null, <data>
 <!-- YAML
 added: v0.1.31
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/12562
     description: The `callback` parameter is no longer optional. Not passing
                  it will throw a `TypeError` at runtime.
@@ -2517,7 +2517,7 @@ Synchronous version of [`fs.read()`][]. Returns the number of `bytesRead`.
 <!-- YAML
 added: v0.1.31
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/12562
     description: The `callback` parameter is no longer optional. Not passing
                  it will throw a `TypeError` at runtime.
@@ -2674,7 +2674,7 @@ this restriction.
 <!-- YAML
 added: v0.0.2
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/12562
     description: The `callback` parameter is no longer optional. Not passing
                  it will throw a `TypeError` at runtime.
@@ -2728,7 +2728,7 @@ Synchronous rename(2). Returns `undefined`.
 <!-- YAML
 added: v0.0.2
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/12562
     description: The `callback` parameter is no longer optional. Not passing
                  it will throw a `TypeError` at runtime.
@@ -2773,7 +2773,7 @@ on Windows and an `ENOTDIR` error on POSIX.
 <!-- YAML
 added: v0.0.2
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/12562
     description: The `callback` parameter is no longer optional. Not passing
                  it will throw a `TypeError` at runtime.
@@ -2873,7 +2873,7 @@ Synchronous symlink(2). Returns `undefined`.
 <!-- YAML
 added: v0.8.6
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/12562
     description: The `callback` parameter is no longer optional. Not passing
                  it will throw a `TypeError` at runtime.
@@ -2913,7 +2913,7 @@ in the future.
 <!-- YAML
 added: v0.0.2
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/12562
     description: The `callback` parameter is no longer optional. Not passing
                  it will throw a `TypeError` at runtime.
@@ -2985,7 +2985,7 @@ and `fs.unwatchFile()` when possible.
 <!-- YAML
 added: v0.4.2
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/12562
     description: The `callback` parameter is no longer optional. Not passing
                  it will throw a `TypeError` at runtime.
@@ -3222,7 +3222,7 @@ This happens when:
 <!-- YAML
 added: v0.0.2
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/12562
     description: The `callback` parameter is no longer optional. Not passing
                  it will throw a `TypeError` at runtime.
@@ -3275,7 +3275,7 @@ the end of the file.
 <!-- YAML
 added: v0.11.5
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/12562
     description: The `callback` parameter is no longer optional. Not passing
                  it will throw a `TypeError` at runtime.
@@ -3326,7 +3326,7 @@ the end of the file.
 <!-- YAML
 added: v0.1.29
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/12562
     description: The `callback` parameter is no longer optional. Not passing
                  it will throw a `TypeError` at runtime.
@@ -3447,7 +3447,7 @@ API is accessible via `require('fs/promises')`.
 
 ### class: FileHandle
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 A `FileHandle` object is a wrapper for a numeric file descriptor.
@@ -3467,7 +3467,7 @@ unclosed file descriptors after a `Promise` is resolved or rejected.
 
 #### filehandle.appendFile(data, options)
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 * `data` {string|Buffer}
 * `options` {Object|string}
@@ -3486,7 +3486,7 @@ The `FileHandle` must have been opened for appending.
 
 #### filehandle.chmod(mode)
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 * `mode` {integer}
 * Returns: {Promise}
@@ -3496,7 +3496,7 @@ arguments upon success.
 
 #### filehandle.chown(uid, gid)
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 * `uid` {integer}
 * `gid` {integer}
@@ -3507,7 +3507,7 @@ upon success.
 
 #### filehandle.close()
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 * Returns: {Promise} A `Promise` that will be resolved once the underlying
@@ -3530,7 +3530,7 @@ async function openAndClose() {
 
 #### filehandle.datasync()
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 * Returns: {Promise}
 
@@ -3539,14 +3539,14 @@ success.
 
 #### filehandle.fd
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 * {number} The numeric file descriptor managed by the `FileHandle` object.
 
 #### filehandle.read(buffer, offset, length, position)
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 * `buffer` {Buffer|Uint8Array}
 * `offset` {integer}
@@ -3573,7 +3573,7 @@ property that is a reference to the passed in `buffer` argument.
 
 #### filehandle.readFile(options)
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 * `options` {Object|string}
   * `encoding` {string|null} **Default:** `null`
@@ -3597,7 +3597,7 @@ The `FileHandle` has to support reading.
 
 #### filehandle.stat()
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 * Returns: {Promise}
 
@@ -3605,7 +3605,7 @@ Retrieves the [`fs.Stats`][] for the file.
 
 #### filehandle.sync()
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 * Returns: {Promise}
 
@@ -3614,7 +3614,7 @@ success.
 
 #### filehandle.truncate(len)
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 * `len` {integer} **Default:** `0`
 * Returns: {Promise}
@@ -3660,7 +3660,7 @@ The last three bytes are null bytes ('\0'), to compensate the over-truncation.
 
 #### filehandle.utimes(atime, mtime)
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 * `atime` {number|string|Date}
 * `mtime` {number|string|Date}`
@@ -3674,7 +3674,7 @@ This function does not work on AIX versions before 7.1, it will resolve the
 
 #### filehandle.write(buffer, offset, length, position)
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 * `buffer` {Buffer|Uint8Array}
 * `offset` {integer}
@@ -3705,7 +3705,7 @@ the end of the file.
 
 #### filehandle.writeFile(data, options)
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 * `data` {string|Buffer|Uint8Array}
 * `options` {Object|string}
@@ -3729,7 +3729,7 @@ without waiting for the `Promise` to be resolved (or rejected).
 
 ### fsPromises.access(path[, mode])
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 * `path` {string|Buffer|URL}
@@ -3769,7 +3769,7 @@ the error raised if the file is not accessible.
 
 ### fsPromises.appendFile(file, data[, options])
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 * `file` {string|Buffer|URL|FileHandle} filename or `FileHandle`
@@ -3791,7 +3791,7 @@ for appending (using `fsPromises.open()`).
 
 ### fsPromises.chmod(path, mode)
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 * `path` {string|Buffer|URL}
@@ -3803,7 +3803,7 @@ arguments upon succces.
 
 ### fsPromises.chown(path, uid, gid)
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 * `path` {string|Buffer|URL}
@@ -3816,7 +3816,7 @@ upon success.
 
 ### fsPromises.copyFile(src, dest[, flags])
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 * `src` {string|Buffer|URL} source filename to copy
@@ -3871,7 +3871,7 @@ fsPromises.copyFile('source.txt', 'destination.txt', COPYFILE_EXCL)
 
 ### fsPromises.fchmod(filehandle, mode)
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 * `filehandle` {FileHandle}
@@ -3883,7 +3883,7 @@ success.
 
 ### fsPromises.fchown(filehandle, uid, gid)
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 * `filehandle` {FileHandle}
@@ -3896,7 +3896,7 @@ the `Promise` with no arguments upon success.
 
 ### fsPromises.fdatasync(filehandle)
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 * `filehandle` {FileHandle}
@@ -3907,7 +3907,7 @@ success.
 
 ### fsPromises.fstat(filehandle)
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 * `filehandle` {FileHandle}
@@ -3917,7 +3917,7 @@ Retrieves the [`fs.Stats`][] for the given `filehandle`.
 
 ### fsPromises.fsync(filehandle)
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 * `filehandle` {FileHandle}
@@ -3928,7 +3928,7 @@ success.
 
 ### fsPromises.ftruncate(filehandle[, len])
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 * `filehandle` {FileHandle}
@@ -3977,7 +3977,7 @@ The last three bytes are null bytes ('\0'), to compensate the over-truncation.
 
 ### fsPromises.futimes(filehandle, atime, mtime)
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 * `filehandle` {FileHandle}
@@ -3993,7 +3993,7 @@ This function does not work on AIX versions before 7.1, it will resolve the
 
 ### fsPromises.lchmod(path, mode)
 <!-- YAML
-deprecated: REPLACEME
+deprecated: v10.0.0
 -->
 
 * `path` {string|Buffer|URL}
@@ -4005,7 +4005,7 @@ no arguments upon success. This method is only implemented on macOS.
 
 ### fsPromises.lchown(path, uid, gid)
 <!-- YAML
-deprecated: REPLACEME
+deprecated: v10.0.0
 -->
 
 * `path` {string|Buffer|URL}
@@ -4018,7 +4018,7 @@ no arguments upon success. This method is only implemented on macOS.
 
 ### fsPromises.link(existingPath, newPath)
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 * `existingPath` {string|Buffer|URL}
@@ -4029,7 +4029,7 @@ Asynchronous link(2). The `Promise` is resolved with no arguments upon success.
 
 ### fsPromises.lstat(path)
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 * `path` {string|Buffer|URL}
@@ -4040,7 +4040,7 @@ for the given symbolic link `path`.
 
 ### fsPromises.mkdir(path[, mode])
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 * `path` {string|Buffer|URL}
@@ -4052,7 +4052,7 @@ arguments upon success.
 
 ### fsPromises.mkdtemp(prefix[, options])
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 * `prefix` {string}
@@ -4082,7 +4082,7 @@ intention is to create a temporary directory *within* `/tmp`, the `prefix`
 
 ### fsPromises.open(path, flags[, mode])
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 * `path` {string|Buffer|URL}
@@ -4171,7 +4171,7 @@ files can be opened for writing with the `r+` flag. A call to
 
 ### fsPromises.read(filehandle, buffer, offset, length, position)
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 * `filehandle` {FileHandle}
@@ -4200,7 +4200,7 @@ property that is a reference to the passed in `buffer` argument.
 
 ### fsPromises.readdir(path[, options])
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 * `path` {string|Buffer|URL}
@@ -4218,7 +4218,7 @@ will be passed as `Buffer` objects.
 
 ### fsPromises.readFile(path[, options])
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 * `path` {string|Buffer|URL|FileHandle} filename or `FileHandle`
@@ -4244,7 +4244,7 @@ Any specified `FileHandle` has to support reading.
 
 ### fsPromises.readlink(path[, options])
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 * `path` {string|Buffer|URL}
@@ -4262,7 +4262,7 @@ returned will be passed as a `Buffer` object.
 
 ### fsPromises.realpath(path[, options])
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 * `path` {string|Buffer|URL}
@@ -4287,7 +4287,7 @@ this restriction.
 
 ### fsPromises.rename(oldPath, newPath)
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 * `oldPath` {string|Buffer|URL}
@@ -4299,7 +4299,7 @@ upon success.
 
 ### fsPromises.rmdir(path)
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 * `path` {string|Buffer|URL}
@@ -4314,7 +4314,7 @@ error on POSIX.
 
 ### fsPromises.stat(path)
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 * `path` {string|Buffer|URL}
@@ -4324,7 +4324,7 @@ The `Promise` is resolved with the [`fs.Stats`][] object for the given `path`.
 
 ### fsPromises.symlink(target, path[, type])
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 * `target` {string|Buffer|URL}
@@ -4342,7 +4342,7 @@ the `target` argument will automatically be normalized to absolute path.
 
 ### fsPromises.truncate(path[, len])
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 * `path` {string|Buffer|URL}
@@ -4354,7 +4354,7 @@ success. The `path` *must* be a string or `Buffer`.
 
 ### fsPromises.unlink(path)
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 * `path` {string|Buffer|URL}
@@ -4365,7 +4365,7 @@ success.
 
 ### fsPromises.utimes(path, atime, mtime)
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 * `path` {string|Buffer|URL}
@@ -4384,7 +4384,7 @@ The `atime` and `mtime` arguments follow these rules:
 
 ### fsPromises.write(filehandle, buffer[, offset[, length[, position]]])
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 * `filehandle` {FileHandle}
@@ -4417,7 +4417,7 @@ the end of the file.
 
 ### fsPromises.writeFile(file, data[, options])
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 * `file` {string|Buffer|URL|FileHandle} filename or `FileHandle`

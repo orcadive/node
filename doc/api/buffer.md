@@ -304,7 +304,7 @@ It can be constructed in a variety of ways.
 <!-- YAML
 deprecated: v6.0.0
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/19524
     description: Calling this constructor emits a deprecation warning when
                  run from code outside the `node_modules` directory.
@@ -332,7 +332,7 @@ const buf = new Buffer([0x62, 0x75, 0x66, 0x66, 0x65, 0x72]);
 added: v3.0.0
 deprecated: v6.0.0
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/19524
     description: Calling this constructor emits a deprecation warning when
                  run from code outside the `node_modules` directory.
@@ -388,7 +388,7 @@ console.log(buf);
 <!-- YAML
 deprecated: v6.0.0
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/19524
     description: Calling this constructor emits a deprecation warning when
                  run from code outside the `node_modules` directory.
@@ -422,7 +422,7 @@ console.log(buf2.toString());
 <!-- YAML
 deprecated: v6.0.0
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/19524
     description: Calling this constructor emits a deprecation warning when
                  run from code outside the `node_modules` directory.
@@ -463,7 +463,7 @@ console.log(buf);
 <!-- YAML
 deprecated: v6.0.0
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/19524
     description: Calling this constructor emits a deprecation warning when
                  run from code outside the `node_modules` directory.
@@ -500,11 +500,11 @@ console.log(buf1.toString('ascii'));
 <!-- YAML
 added: v5.10.0
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/18129
     description: Attempting to fill a non-zero length buffer with a zero length
                  buffer triggers a thrown exception.
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/17427
     description: Specifying an invalid string for `fill` triggers a thrown
                  exception.
@@ -1171,14 +1171,14 @@ console.log(buf1.equals(buf3));
 <!-- YAML
 added: v0.5.0
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/18790
     description: Negative `end` values throw an `ERR_INDEX_OUT_OF_RANGE` error.
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/18129
     description: Attempting to fill a non-zero length buffer with a zero length
                  buffer triggers a thrown exception.
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/17427
     description: Specifying an invalid string for `value` triggers a thrown
                  exception.
@@ -1505,7 +1505,7 @@ The `buf.parent` property is a deprecated alias for `buf.buffer`.
 <!-- YAML
 added: v0.11.15
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/18395
     description: Removed noAssert and no implicit coercion of the offset to
                  uint32 anymore.
@@ -1535,7 +1535,7 @@ console.log(buf.readDoubleLE(1));
 <!-- YAML
 added: v0.11.15
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/18395
     description: Removed noAssert and no implicit coercion of the offset to
                  uint32 anymore.
@@ -1564,7 +1564,7 @@ console.log(buf.readFloatLE(1));
 <!-- YAML
 added: v0.5.0
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/18395
     description: Removed noAssert and no implicit coercion of the offset to
                  uint32 anymore.
@@ -1594,7 +1594,7 @@ console.log(buf.readInt8(2));
 <!-- YAML
 added: v0.5.5
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/18395
     description: Removed noAssert and no implicit coercion of the offset to
                  uint32 anymore.
@@ -1626,7 +1626,7 @@ console.log(buf.readInt16LE(1));
 <!-- YAML
 added: v0.5.5
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/18395
     description: Removed noAssert and no implicit coercion of the offset to
                  uint32 anymore.
@@ -1658,7 +1658,7 @@ console.log(buf.readInt32LE(1));
 <!-- YAML
 added: v0.11.15
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/18395
     description: Removed noAssert and no implicit coercion of the offset and
                  byteLength to uint32 anymore.
@@ -1691,7 +1691,7 @@ console.log(buf.readIntBE(1, 0).toString(16));
 <!-- YAML
 added: v0.5.0
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/18395
     description: Removed noAssert and no implicit coercion of the offset to
                  uint32 anymore.
@@ -1719,7 +1719,7 @@ console.log(buf.readUInt8(2));
 <!-- YAML
 added: v0.5.5
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/18395
     description: Removed noAssert and no implicit coercion of the offset to
                  uint32 anymore.
@@ -1753,7 +1753,7 @@ console.log(buf.readUInt16LE(2).toString(16));
 <!-- YAML
 added: v0.5.5
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/18395
     description: Removed noAssert and no implicit coercion of the offset to
                  uint32 anymore.
@@ -1783,7 +1783,7 @@ console.log(buf.readUInt32LE(1).toString(16));
 <!-- YAML
 added: v0.11.15
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/18395
     description: Removed noAssert and no implicit coercion of the offset and
                  byteLength to uint32 anymore.
@@ -2099,7 +2099,7 @@ console.log(`${len} bytes: ${buf.toString('utf8', 0, len)}`);
 <!-- YAML
 added: v0.11.15
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/18395
     description: Removed noAssert and no implicit coercion of the offset to
                  uint32 anymore.
@@ -2134,7 +2134,7 @@ console.log(buf);
 <!-- YAML
 added: v0.11.15
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/18395
     description: Removed noAssert and no implicit coercion of the offset to
                  uint32 anymore.
@@ -2168,7 +2168,7 @@ console.log(buf);
 <!-- YAML
 added: v0.5.0
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/18395
     description: Removed noAssert and no implicit coercion of the offset to
                  uint32 anymore.
@@ -2200,7 +2200,7 @@ console.log(buf);
 <!-- YAML
 added: v0.5.5
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/18395
     description: Removed noAssert and no implicit coercion of the offset to
                  uint32 anymore.
@@ -2233,7 +2233,7 @@ console.log(buf);
 <!-- YAML
 added: v0.5.5
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/18395
     description: Removed noAssert and no implicit coercion of the offset to
                  uint32 anymore.
@@ -2266,7 +2266,7 @@ console.log(buf);
 <!-- YAML
 added: v0.11.15
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/18395
     description: Removed noAssert and no implicit coercion of the offset and
                  byteLength to uint32 anymore.
@@ -2301,7 +2301,7 @@ console.log(buf);
 <!-- YAML
 added: v0.5.0
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/18395
     description: Removed noAssert and no implicit coercion of the offset to
                  uint32 anymore.
@@ -2333,7 +2333,7 @@ console.log(buf);
 <!-- YAML
 added: v0.5.5
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/18395
     description: Removed noAssert and no implicit coercion of the offset to
                  uint32 anymore.
@@ -2370,7 +2370,7 @@ console.log(buf);
 <!-- YAML
 added: v0.5.5
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/18395
     description: Removed noAssert and no implicit coercion of the offset to
                  uint32 anymore.
@@ -2405,7 +2405,7 @@ console.log(buf);
 <!-- YAML
 added: v0.5.5
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/18395
     description: Removed noAssert and no implicit coercion of the offset and
                  byteLength to uint32 anymore.
